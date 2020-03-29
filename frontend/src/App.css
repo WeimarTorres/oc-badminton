@@ -1,0 +1,66 @@
+.containerHomePage {
+    /*width: 1536px;
+    height: 722px;*/
+    background-image: url(./res/backgroundHomePage.webp);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+/*Navigation*/
+
+.containerNavbar {
+    padding-top: 10px;
+}
+
+.navbar {
+    height: 50px;
+    background-color: rgba(0, 99, 157, 0.5);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.navLink {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navLink-active {
+    visibility: hidden;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color: #00639D !important;
+    text-decoration: none !important;
+}
+
+.button {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+    color: #00639D;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 19px;
+    border: 2px solid #00639D;
+}
+
+.button:hover {
+    background: rgba(0, 99, 157, 0.9);
+    border: 2px solid white;
+}
+
+/*.button-active {
+    background: rgba(0, 99, 157, 0.9);
+    border: 2px solid white;
+}*/
+
+/*HomePage*/
